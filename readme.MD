@@ -141,7 +141,7 @@ vim /etc/filebeat/filebeat.yml
 enabled: true <br/>
 inputs: nginx access log <br/>
 outputs: elastic <br/>
-ssl_verification: none <br/>
+ssl.verification_mode: none <br/>
 protocol: https <br/>
 
 * Go to stack management and see the data in index management
